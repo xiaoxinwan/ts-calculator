@@ -1,0 +1,24 @@
+.calculator{
+    display: inline-block;
+}
+.calculator .button{
+    height: 5em;
+    width: 5em;
+}
+.calculator .button.text-clear{
+    width: 15em;
+}
+.calculator .button.button.text-0{
+    width: 10em;
+}
+.calculator .output{
+    border: 1px solid grey;
+    height: 5em;
+    position: relative;
+}
+.calculator .output span{
+    position: absolute;
+    right: 3px;
+    bottom: 0px;
+    font-size: 45px;
+}
